@@ -1,0 +1,14 @@
+WelcomeSentences:
+  - text: Welcome to sportevo!
+    typing: true
+  - wait: 2s
+    text: we are here to help!
+    typing: true
+  - wait: 2s
+  - text : but first of all we need to know if youre a costumer or a Furnisher?
+    quick_replies:
+      - <QR_Costumer> I'm a costumer!
+      - <QR_furnisher> I'm  Furnisher!
+
+QR_JC:
+  - text: this is a test 
